@@ -1,0 +1,225 @@
+*{
+    text-decoration: none;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Bebas Neue', cursive;
+    color:white;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: rgba(26, 25, 25, 0.952);
+}
+/* header */
+header {
+    background-image: url(image/bg\ mhw.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-weight: bold;
+    width: 100%;
+    text-align: center;
+    padding-top: 140px;
+    min-width: 800px;
+    font-size: 35px;
+}
+header h1{
+    margin-top: -120px;
+    text-shadow: 0 0 7px black;
+    transition-duration: 0.5s;
+}
+header h1:hover{
+    color: black;
+    text-shadow: 0 0 10px white;
+    transition-duration: 1s;
+}
+/* nav AKA manu (dans le header) */
+.menu {
+    display: flex;
+    justify-content: space-between;
+    min-width: 850px;
+
+}
+@media(max-width:940px){
+    .menu {
+        font-size: 25px;
+    }
+}
+.menu a {
+    text-shadow: 0 0 5px rgb(252, 214, 145);
+    margin-left: 5%;
+    margin-right: 5%; 
+    color:black;
+    background-color: rgba(0, 0, 0, 0);
+    border:rgba(255, 166, 0, 0) solid 1px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+
+
+.menu a:hover{
+    color: white;
+    transition-duration: 1s;
+}
+
+.dream {
+    background-color: rgba(0, 0, 0, 0.562);
+    text-align: center;
+}
+
+/*welcome*/
+.presentation {
+    text-align: center;
+}
+.presentation p {
+    width: 66%;
+    border-bottom: solid orange 3px;
+    margin: auto;
+    font-size: 25px;
+}
+
+/*body (3 parties, 2 gauches (p.gauvhe et friends) 1 droite (p.droite) */
+body{
+    width: 100%;
+    min-width: 850px;
+}
+/*gauche*/
+.partiegauche {
+    margin-top: 50px;
+    text-align: center;
+    display: inline-block;
+    width: 45%;
+    border: solid orange 2px;
+    border-radius:10px;
+}
+
+.partiegauche #imagedemoi {
+    width: 300px;
+ 
+}
+.partiegauche .contacts img {
+    width: 120px;
+    margin-left:65px;
+    margin-right: 65px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+   
+}
+.partiegauche .contacts a #logoyt{
+    margin-right: 80px;
+}
+#twitter img {
+    width: 50px;
+    margin-left: -10px;
+}
+/*droite*/
+.partiedroite {
+    display: inline-block;
+    width:50%;
+    float: right;
+    margin-top: 50px;
+    margin-right: 20px;
+    text-align: center;
+    min-width: 300px;
+
+}
+.whoami {
+    border: orange solid 2px;
+    border-radius:10px;
+    text-align: center;
+}
+.partiedroite video{
+    width: 60%;
+}
+.whatido video{
+    display: inline-block;
+    margin: auto;
+    max-width: 400px;
+}
+.JOINUS{
+    margin-top: -15px;
+    display: inline-block;
+    float: right;
+    font-size: 25px;
+    width: 38%;
+    text-align: center;
+    margin: auto;
+}
+.JOINUS h5{
+    text-decoration: underline;
+
+}
+.JOINUS #submit{
+   display: block;
+   margin: 10px auto;
+   background-color: black;
+   padding: 10px;
+   padding-left: 15px;
+   padding-right: 15px;
+   border-radius: 10px;
+}
+.JOINUS form input{
+    background-color: rgba(0, 0, 0, 0);
+    border-left:none;
+    border-right: none;
+    border-top: none;
+    border-bottom: rgba(255, 166, 0, 0) 2px solid;
+    text-align: center;
+}
+.JOINUS form input:hover{
+    border-bottom: orange 2px solid;
+    transition-duration: 1s;
+}
+/*friends, partie gauche à part, pour permettre des modifications de style*/
+.friends {
+    display: inline-block;
+    width: 45%;
+    text-align: center;
+    padding: left -10px;
+}
+.friends img{
+    width: 120px;
+    margin-left: 30px;
+    margin-right: 30px;
+    border: orange solid 4px;
+    border-radius: 100%;
+}
+.friends #camille:hover{
+ /* jessaye de mettre un popup qui affiche leur nom on :hover */
+ content: Juhachi;
+}
+.friends #wazo:hover{
+/* jessaye de mettre un popup qui affiche leur nom on :hover */
+content: Wazo;
+}
+/*texte decoratif de fin*/
+.sortie{
+    padding-bottom: 65px;
+    padding-top: 65px;
+    width: 100%;
+    margin: auto;
+    text-align:center;
+    background-image: url(image/hawks.jpg);
+    background-position: 70% 29%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.sortie p {
+    width: 75%;
+    text-align: center;
+    margin: auto;
+    font-size: 60px;
+    text-shadow: 0 0 10px black;
+    transition-duration: 0.5s;
+}
+
+.sortie p:hover{
+    color: rgb(0, 0, 0);
+    text-shadow: 0 0 10px white;
+    transition-duration: 1s;
+}
+/*footer*/
+footer{
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+}
